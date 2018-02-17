@@ -1,6 +1,7 @@
-.container{
+.container-fluid{
   margin:0%;
   clear:both;
+  text-align:center;
 }
 
 .row{
@@ -30,7 +31,19 @@ header img{
     transform: translate(-50%, -50%);
     color:white;
 }
-table{
+/*table{
   background-color:orange;
   color:white;
+}*/
+footer{
+  background-color:#F15A29;
+  color:white;
+  text-align:center;
+  padding:4%;
+
+}
+footer img{
+  display:inline;
+  margin-bottom:5%;
+
 }
