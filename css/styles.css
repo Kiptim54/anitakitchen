@@ -34,3 +34,16 @@ header img{
   background-color:orange;
   color:white;
 }*/
+footer{
+  background-color:#F15A29;
+  color:white;
+  text-align:center;
+  padding:4%;
+  margin:0%
+
+}
+footer img{
+  display:inline;
+  margin-bottom:5%;
+
+}
