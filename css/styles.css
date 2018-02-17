@@ -4,10 +4,10 @@
   padding-right:0px;
   text-align: center;
   font-family: cambo;
-  font-size: 25px;
+  font-size: 18px;
 
 }
-.col-md-12 ,.col-md-3 ,.row{
+.col-md-12 ,.col-md-3 ,.row .col-md-6{
   padding-left: 0%;
   padding-right:0%;
 }
@@ -39,11 +39,20 @@ header img {
 }
 
  .foods {
-  text-align:justify!important;
-  padding:10%;
-  margin: 10%;
-  background-color: ;
+   padding:7%;
+   padding-left:5px;
 }
+.foods p, .foods h1 {
+  text-align:left !important;
+}
+.gallery {
+  border: 1px #F15A29 solid;
+  color: #F15A29 !important;
+  width: 20%;
+  text-align: center;
+  padding:1%;
+}
+
 .drinks{
 
    text-align: right;
@@ -51,12 +60,6 @@ header img {
    background-color: default;
  }
 
-
- .gallery {
-   border: 1px #F15A29 solid;
-   color: #F15A29 !important;
-   width: 20%;
-   text-align: center;
 
 #tomato {
   background-image: url("../images/backgrounds/subscribe.jpg");
