@@ -1,82 +1,48 @@
 .container-fluid {
-  margin: 0 !important;
+  margin: 0% !important;
+  padding-left:0px;
+  padding-right:0px;
   text-align: center;
   font-family: cambo;
   font-size: 25px;
-}
 
-p {
-  font-size: 15px;
 }
-
+.col-md-12 ,.col-md-3 ,.row{
+  padding-left: 0%;
+  padding-right:0%;
+}
 header {
-  text-align: center;
   background-image: url("../images/backgrounds/landing.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: white;
-  clear: both;
   height: 100vh;
-  padding-right:0px;
-  padding-left:0px;
   margin: 0px !important;
-  line-height:12px;
+  line-height:300%;
 }
 
 header img {
-  position: center;
-  padding:20px;
+  padding:5%;
 
 }
-.breakfast img{
-  position:relative;
+.orange{
 
-
-}
-
-.breakfast p{
-  position:absolute;
-  left:50%;
-  right:50%
-  color:white;
-}
-
-table {
-  background-color: orange;
-  color: white;
-}
-
-footer {
+  padding:10%;
   background-color: #F15A29;
-  color: white;
-  text-align: center;
-  padding: 3%;
-  margin: 0%;
+
+
 }
-
-footer img {
-  display: inline;
-  margin-bottom: 2%;
-}
-
-.gallery {
-  border: 1px #F15A29 solid;
-  color: #F15A29 !important;
-  width: 20%;
-  text-align: center;
-}
-
-
-.secondrow{
-  margin:1px;
-  padding-right:4%;
+.f9f9f9{
+  padding:10%;
+  background-color:#636c72 ;
 }
 
  .foods {
-  text-align: left;
-  margin-bottom: 10%;
-  background-color: default;
+  text-align:justify!important;
+  padding:10%;
+  margin: 10%;
+  background-color: ;
 }
 .drinks{
 
@@ -84,6 +50,13 @@ footer img {
    margin-bottom:10%;
    background-color: default;
  }
+
+
+ .gallery {
+   border: 1px #F15A29 solid;
+   color: #F15A29 !important;
+   width: 20%;
+   text-align: center;
 
 #tomato {
   background-image: url("../images/backgrounds/subscribe.jpg");
@@ -98,3 +71,15 @@ label {
   text-align: center;
   postion: center;
 }
+
+footer {
+  background-color: #F15A29;
+  color: white;
+  text-align: center;
+  padding: 3%;
+  margin: 0%;
+}
+
+footer img {
+  display: inline;
+  margin-bottom: 2%;
