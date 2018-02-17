@@ -1,1 +1,36 @@
+.container{
+  margin:0%;
+  clear:both;
+}
 
+.row{
+  margin:5px;
+}
+
+header{
+  text-align:center;
+  background-image:url("../images/backgrounds/landing.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center center;
+  color:white;
+  clear:both;
+  height:400px;
+
+}
+header img{
+  position:center;
+
+}
+.breakfast, .lunch, .dinner
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+}
+/*table{
+  background-color:orange;
+  color:white;
+}*/
