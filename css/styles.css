@@ -1,86 +1,100 @@
-html{
-  margin:0;
-  padding:0;
+.container-fluid {
+  margin: 0 !important;
+  text-align: center;
+  font-family: cambo;
+  font-size: 25px;
 }
 
-.container-fluid{
-  margin:0 !important;
-  text-align:center;
-
-
+p {
+  font-size: 15px;
 }
 
-
-header{
-  text-align:center;
-  background-image:url("../images/backgrounds/landing.jpg");
+header {
+  text-align: center;
+  background-image: url("../images/backgrounds/landing.jpg");
   background-repeat: no-repeat;
-  background-size:cover;
-  background-position:center center;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  clear: both;
+  height: 100vh;
+  padding-right:0px;
+  padding-left:0px;
+  margin: 0px !important;
+  line-height:12px;
+}
+
+header img {
+  position: center;
+  padding:20px;
+
+}
+.breakfast img{
+  position:relative;
+
+
+}
+
+.breakfast p{
+  position:absolute;
+  left:50%;
+  right:50%
   color:white;
-  clear:both;
-  height:100vh;
-  padding:0;
-
-margin:0px !important;
-
-}
-header img{
-  position:center;
-  padding:5%;
 }
 
-}
-.breakfast, .lunch, .dinner{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color:white;
-}
-table{
-  background-color:orange;
-  color:white;
+table {
+  background-color: orange;
+  color: white;
 }
 
-footer{
-  background-color:#F15A29;
-  color:white;
-  text-align:center;
-  padding:3%;
-  margin:0%;
-
+footer {
+  background-color: #F15A29;
+  color: white;
+  text-align: center;
+  padding: 3%;
+  margin: 0%;
 }
-footer img{
-  display:inline;
-  margin-bottom:2%;
 
+footer img {
+  display: inline;
+  margin-bottom: 2%;
 }
+
+.gallery {
+  border: 1px #F15A29 solid;
+  color: #F15A29 !important;
+  width: 20%;
+  text-align: center;
+}
+
+
 .secondrow{
-  margin-top:.5%;
-  margin-bottom:1.5%;
-  size:100%;
-
-}
-.gallery{
-  border:1px #F15A29 solid;
-  color:#F15A29 !important;
-  width:20%;
-  text-align:center;
+  margin:1px;
+  padding-right:4%;
 }
 
-.drinks ,.foods{
-  text-align:center;
-  margin-bottom:2%;
+ .foods {
+  text-align: left;
+  margin-bottom: 10%;
+  background-color: default;
 }
-#tomato{
-    background-image:url("../images/backgrounds/subscribe.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position:center center;
-    height:200px;
-    color:white;
-}
-.tomato form{
+.drinks{
 
+   text-align: right;
+   margin-bottom:10%;
+   background-color: default;
+ }
+
+#tomato {
+  background-image: url("../images/backgrounds/subscribe.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 200px;
+  color: white;
+}
+
+label {
+  text-align: center;
+  postion: center;
 }
