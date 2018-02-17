@@ -1,7 +1,6 @@
-.container-fluid{
+.container{
   margin:0%;
   clear:both;
-  text-align:center;
 }
 
 .row{
@@ -40,6 +39,7 @@ footer{
   color:white;
   text-align:center;
   padding:4%;
+  margin:0%
 
 }
 footer img{
