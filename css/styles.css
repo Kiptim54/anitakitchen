@@ -1,22 +1,35 @@
-*, .container-fluid{
-  margin:0;
+*{
+  margin:0 !important;
   text-align:center;
   font-size:15px;
-  padding:0px;
+  padding:0;
   font-family: Arvo;
+  padding-left: 0 !important:
+  padding-right:0 !important;
 
 }
-h6,strong{
-  font-size:30px;
+.container-fluid{
+  width:100%;
+  height:100%;
+  padding-left: 0 !important:
+  padding-right:0 !important;
+  height:  100%;
+  width:100%;}
+
+.row{
+  padding:1px;
+  padding-left: 0 !important:
+  padding-right:0 !important;
 }
 
 header{
   background-image:url("../images/backgrounds/landing.jpg");
-  background-position: center;
+  background-position:center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   height:100vh;
   color:white;
+  width:100vw;
 
 }
 
@@ -82,7 +95,11 @@ border-radius: 5px;
 }
 .textd{
   text-align:right;
-  margin-left:10%;
+  width:400px;
+  float:right;
+  clear:both;
+
+
 }
 
 .galleryd{
@@ -92,6 +109,7 @@ border-radius: 5px;
     text-align:center;
     width:160px;
     float:right;
+    clear:both;
 }
 
 #platebackground{
@@ -103,13 +121,18 @@ border-radius: 5px;
     height:400px;
     margin-top:3%;
 }
+.ourcustomers{
+  height:200px;
+}
 .pull-left{
   width:300px;
-  margin-left:24%;
-text-align: center;
-display: inline-block;
-margin-top:5%;
-margin-bottom:5%;
+  margin-left:24;
+  text-align: center;
+  display: inline-block;
+  margin-top:5%;
+  margin-bottom:5%;
+  padding:25px;
+
 }
 .pull-right{
   width:300px;
@@ -118,7 +141,7 @@ margin-bottom:5%;
   display: inline-block;
   margin-top:5%;
   margin-bottom:5%;
-
+  padding:25px;
 }
 
 .pull-right h4, .pull-left h4{
@@ -137,18 +160,30 @@ margin-bottom:5%;
 button{
   background-color: #F15A29;
   color:white;
-  margin:2%;
+  margin:2px;
+  border-radius:5%;
 }
-form{
+.form-control{
   color:#F15A29;
   background: transparent;
+  width: 200px;
+  vertical-align: middle;
+  text-align: center;
 
+}
+.form-group{
+  text-align: center;
 }
 footer{
   background-color: #F15A29;
   color:white;
-  padding:1%;
+  padding-top:1%;
   line-height:50px;
+  width:100%;
+  padding-left: 0%;
+  padding-right: 0%;
+  margin: 0;
+
 }
 .burger{
   font-size:25px;
@@ -165,7 +200,7 @@ footer{
   left:0px;
   top:0px;
 
-}
+}*/
 #nav-btn{
   display:block;
   vertical-align: middle;
@@ -175,10 +210,15 @@ footer{
 }
 #nav-btn span{
   height:6px;
-  background: black;
   margin-bottom:5px;
   display:block;
   cursor: progress;
   margin:20px;
+  background: :white;
 }
-*/
+/*
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
