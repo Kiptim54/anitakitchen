@@ -45,7 +45,7 @@ header img{
 
 }
 .image-responsive:hover{
-  img:hover {-webkit-filter: brightness(150%); }
+-webkit-filter: brightness(200%);
 }
 
 .text{

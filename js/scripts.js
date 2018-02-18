@@ -1,5 +1,8 @@
 $(document) .ready(function(){
-  $("#nav-btn").click(function({
-  $("#nav").hide();
-  });
+  var email=(x);
+  return getElementsByClassName('className')
+  var email=toString(document.getElementsByName("email"));
+  $("button").click(function(){
+  alert(email+"Thank you for subscribing");
 });
+  });
