@@ -6,6 +6,7 @@
   font-family: Arvo;
   padding-left: 0 !important:
   padding-right:0 !important;
+  height:auto;
 
 }
 .container-fluid{
@@ -14,7 +15,11 @@
   padding-left: 0 !important:
   padding-right:0 !important;
   height:  100%;
-  width:100%;}
+  width:100%;
+  text-align: center;
+  }
+
+
 
 .row{
   padding:1px;
@@ -151,32 +156,19 @@ margin: 5px;
   background-image: url("../images/backgrounds/subscribe.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    color:white;
-    height:300px;
-    margin-top:3%;
-}
-#tomato h4{
-  padding-top:5px;
-  position: absolute;
-}
-button{
+    text-align:center;
+    padding-top:7%;
+  }
+
+
+ button{
   background-color: #F15A29;
   color:white;
-  margin:2px;
-  border-radius:0px;
-}
-.form-control{
-  color:#F15A29;
-  background: transparent;
-  width: 200px;
-  vertical-align: middle;
-  text-align: center;
+  margin:8px;
+  border-radius:4px;
 
 }
-.form-group{
-  text-align: center;
-}
+
 footer{
   background-color: #F15A29;
   color:white;
@@ -224,4 +216,13 @@ footer{
   background: #000 !important;
   color: #0f0 !important;
   outline: solid #f00 1px !important;
+} */
+.email{
+  height:200px;
+  text-align:center;
+  margin-bottom:5px;
+}
+.email p{
+  color:white;
+  font-size:30px;
 }
