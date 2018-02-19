@@ -83,14 +83,13 @@ header img{
   text-align:centr;
   width:160px;
 }
- table{
-width:50%;
-height:50%;
-border:4px grey solid;
+ table {
+   max-width: 50%;
+   max-height: 50%;
+border:4px lightblue solid;
 margin-left:15%;
 margin-top: 4%;
-box-shadow: box-shadow:blue;
-border-radius: 5px;
+margin: 5px;
 
 }
 .textd{
@@ -157,11 +156,14 @@ border-radius: 5px;
     height:300px;
     margin-top:3%;
 }
+#tomato h4{
+  padding-top:5px;
+}
 button{
   background-color: #F15A29;
   color:white;
   margin:2px;
-  border-radius:5%;
+  border-radius:0px;
 }
 .form-control{
   color:#F15A29;
