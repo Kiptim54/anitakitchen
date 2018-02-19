@@ -1,5 +1,9 @@
 $(document).ready(function(){
   $("button").click(function(){
-    alert("Thank you for subscribing");
+  function email(x){
+  return $(getElementById("#email"));
+  };
+  var results=email(x);
+    alert(email +" Thank you for subscribing");
   });
 });
