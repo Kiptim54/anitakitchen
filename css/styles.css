@@ -158,6 +158,7 @@ margin: 5px;
 }
 #tomato h4{
   padding-top:5px;
+  position: absolute;
 }
 button{
   background-color: #F15A29;
@@ -185,7 +186,7 @@ footer{
   padding-left: 0%;
   padding-right: 0%;
   margin: 0;
-
+  position: absolute;
 }
 .burger{
   font-size:25px;
