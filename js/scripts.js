@@ -1,8 +1,13 @@
-$(document) .ready(function(){
-  var email=(x);
-  return getElementsByClassName('className')
-  var email=toString(document.getElementsByName("email"));
-  $("button").click(function(){
-  alert(email+"Thank you for subscribing");
-});
-  });
+//quite frankly this is from a youtube tutorial I don'
+var inputValue="";
+var submit=document.getElementById("submit");
+var email= document.getElementById("email");
+
+submit.onekeyup= function(event){
+  inputValue=event.target.value;
+}
+
+submit.onclick= function(event){
+  console.log("inputValue");
+  alert("input");
+};

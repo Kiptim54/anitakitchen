@@ -6,7 +6,7 @@
 
 ## Description
 
-##This is a marketing website for Anita's Kitchen.
+This is a marketing website for Anita's Kitchen.
 
 ## Project setup instructions
 
