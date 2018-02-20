@@ -88,7 +88,7 @@ header img{
   text-align:centr;
   width:160px;
 }
- table {
+ .drinks table {
    max-width: 50%;
    max-height: 50%;
 border:4px lightblue solid;
@@ -127,24 +127,25 @@ margin: 5px;
     text-align: center;
 }
 .ourcustomers{
-  height:200px;
-
-}
-.left{
-  float:left;
-  width:400px;;
-  margin-left:300px;
-
-}
-.right{
-  float:right;
-  width:300px;
+  height:400px;
+  text-align: center;
 
 
 }
+.ourcustomers table{
+  text-align: center;
+  display: inline-block;
+  margin-top:2%;
+}
+table h4{
+    color:#F15A29;
+}
 
-.pull-right h4, .pull-left h4{
-  color:#F15A29
+ table td{
+height:200px;}
+
+table .line{
+  border-right: .5px grey solid;
 }
 
 #tomato{
@@ -161,9 +162,22 @@ margin: 5px;
   color:white;
   margin:8px;
   border-radius:4px;
+  padding:5px;
+  width:200px;
 
 }
+label{
+  color:white;
+  font-size:25px;
+}
+.form-control{
+  margin:auto;
+  width:400px;
+ display: inline-block;
+ background:transparent;
+ text-align: left;
 
+}
 footer{
   background-color: #F15A29;
   color:white;
@@ -212,15 +226,11 @@ footer{
   color: #0f0 !important;
   outline: solid #f00 1px !important;
 } */
-.email{
+.email, .form-group{
   height:200px;
   text-align:center;
   margin-bottom:5px;
-}
-.email p{
-  color:white;
-  font-size:30px;
-}
+
 .thumbnail{
   padding-left:4px;
   padding-right: -8px;
@@ -229,7 +239,15 @@ footer{
   background-color:white;
   margin-top:5%;
   margin-left:10%;
-
-
-
+}
+li .nav-item{
+  background-color: white;!important;
+  background: white;
+  display: inline-block;
+  text-align: center;
+}
+.nav-pills{
+  display:grid;
+  margin:auto;
+  margin-left:20%;
 }
