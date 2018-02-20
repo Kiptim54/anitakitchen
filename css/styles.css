@@ -43,6 +43,10 @@ header img{
   padding:5%;
 }
 
+header p{
+  font-size: 30px;
+}
+
 .happy{
   background-color:grey;
   height:100px;
@@ -191,6 +195,7 @@ footer{
 }
 .burger{
   font-size:25px;
+  display: inline-block;
 }
 /*
 #nav ul{
@@ -210,15 +215,15 @@ footer{
   vertical-align: middle;
   width: 20px;
   height: 15px;
-  color:black;
+  background: :black;
 }
-#nav-btn span{
+ span{
   height:6px;
   margin-bottom:5px;
   display:block;
   cursor: progress;
   margin:20px;
-  background: :white;
+  background: :black;
 }
 /*
 * {
