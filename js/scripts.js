@@ -1,5 +1,7 @@
 $(document).ready(function(){
-  $("button").click(function(){
-    alert(" Thank you for subscribing");
+  $("#save").click(function(event){
+    var email=$("#key").val();
+  alert(email+ " You are now subscribed to Anita's Kitchen! ");
+  event.preventDefault();
   });
 });
