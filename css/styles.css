@@ -124,28 +124,23 @@ margin: 5px;
     color:white;
     height:400px;
     margin-top:3%;
+    text-align: center;
 }
 .ourcustomers{
   height:200px;
-}
-.pull-left{
-  width:300px;
-  margin-left:24;
-  text-align: center;
-  display: inline-block;
-  margin-top:5%;
-  margin-bottom:5%;
-  padding:25px;
 
 }
-.pull-right{
+.left{
+  float:left;
+  width:400px;;
+  margin-left:300px;
+
+}
+.right{
+  float:right;
   width:300px;
-  margin-right:24%;
-  text-align: center;
-  display: inline-block;
-  margin-top:5%;
-  margin-bottom:5%;
-  padding:25px;
+
+
 }
 
 .pull-right h4, .pull-left h4{
@@ -225,4 +220,16 @@ footer{
 .email p{
   color:white;
   font-size:30px;
+}
+.thumbnail{
+  padding-left:4px;
+  padding-right: -8px;
+}
+.tabs{
+  background-color:white;
+  margin-top:5%;
+  margin-left:10%;
+
+
+
 }
