@@ -126,6 +126,7 @@ margin: 5px;
     height:400px;
     margin-top:3%;
     text-align: center;
+    position:presentation;
 }
 .ourcustomers{
   height:auto;
