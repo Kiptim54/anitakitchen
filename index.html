@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type="text/css">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/scripts.js">
@@ -28,16 +29,23 @@
 
 <body>
 <div class="container-fluid">
+  <i id="menu-open" class="ion-navicon-round"></i>
+  <aside id="menu">
+    <i id="menu-close" class="ion-close-round"></i>
+
+    <ul>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Events</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </aside>
+
     <header>
-      <div class="col-md-12" "col-xs-12">
-          <div class="menuburger" class="pull-left">
-            <img class="menuburger" src="glyphicons/png/glyphicons-517-menu-hamburger.png" alt="">
-          </div>
-        <img src="images/logoBig.png" alt="">
+
+        <img src="images/logoBig.png" alt="" />
         <h2> We Provide the Best Food<br>At The Right Price</h2>
-      </div>
-      <div>
-      </div>
+
+
     </header>
     <!--one-->
     <div class="container-fluid">

@@ -5,4 +5,15 @@ $(document).ready(function(){
   $("#save").html("Subscribed!");
   event.preventDefault();
   });
+
+$("#menu-open").click(function(){
+$("aside").animate({"left":0},1000);
+});
+$("#menu-close").click(function(){
+$("aside").animate({"left":"-105\%"},1000);
+
+
+});
+
+
 });
