@@ -1,30 +1,27 @@
 
 
-  /*{margin:0 !important;
-  text-align:center;
-  font-size:15px;
-  padding:0;
-  font-family: Arvo;
-  padding-left: 0 !important:
-  padding-right:0 !important;
-  height:auto;}*/
+  
 
 #menu-open{
   position:absolute;
   font-size:300%;
   left:0;
   padding-left:5%;
+
 }
 #menu-close{
+  position: absolute;
   font-size:300%;
-  left:8;
-  padding-left:5%;
+  right:3%;
+  top:2%;
+
 color:white;}
 
 aside{
   display:flex;
   position:absolute;
   background-color:#F15A29;
+  opacity:0.8;
   height:100vh;
   width:100vw;
   z-index:-100%;
@@ -35,6 +32,7 @@ aside{
 aside ul{
   align-items: center;
   text-align: center;
+
 }
 aside li{
   list-style: none;
@@ -51,6 +49,8 @@ aside a{
 margin-left: 0;
 margin-right: 0;
 text-align: center;
+max-width:100%;
+padding-left:0;
   }
 
 
@@ -68,12 +68,14 @@ header{
   background-size:cover;
   height:100vh;
   color:white;
-  width:100vw;
+  width: 100vw;
+
 }
 
 
 header img{
   padding:6%;
+
 }
 
 header p{
@@ -226,8 +228,8 @@ footer{
   padding-top:1%;
   line-height:50px;
   width:100%;
-  padding-left: 0%;
-  padding-right: 0%;
+  padding-left: 0;
+  padding-right: 0;
   margin: 0;
   position: absolute;
 }
